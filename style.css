@@ -6,30 +6,54 @@ body{
     background-size: cover;      
     background-position: center;   
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.h1{
+h1{
+    display: flex;
     justify-content: center;
     align-items: center;
     font-family: "giulia", sans-serif;
     font-weight: 400;
+    font-size: 2rem;
     font-style: normal;
+    padding:30px;
+    margin:30px;
+    background-color: rgb(44, 32, 32);
+    color:aliceblue;
+    border-radius: 20px;
 }
 /* STYLE FOR THE INPUT FIELD */
 #charInput {
-    justify-content: center;
-    align-items: center;
+    margin: 20px;
+    padding:10px;
+    text-align: center;
+    border-radius: 10px;
+    border:#060105;
 }
 
 /* STYLE FOR THE SUBMIT BUTTON */
  #submitButton {
     font-family: "giulia", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    justify-content: center;
-    align-items: center;
+    padding:10px 22px;
+    font-size: 14px;
+    margin: 20px;
+    border: none; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    background-color: rgb(246, 196, 245);
+}
+#submitButton:hover{
+    background-color: #f36ce1;
+    transform: scale(1.05);
 }
 
 /* STYLE FOR THE IMAGE */
 #displayedImage {
+    margin-top: 20px;
+    max-width: 500px;
     display: none; /* This line is mandatory */
 }
