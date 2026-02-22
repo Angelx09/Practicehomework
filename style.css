@@ -1,0 +1,24 @@
+@import url("https://use.typekit.net/mlp1cca.css");
+body{
+    margin: 0;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/736x/40/54/39/40543999f1170af27547039756523174.jpg"); 
+    background-size: cover;      
+    background-position: center;   
+    background-repeat: no-repeat;
+}
+/* STYLE FOR THE INPUT FIELD */
+#charInput {
+}
+
+/* STYLE FOR THE SUBMIT BUTTON */
+ #submitButton {
+    font-family: "giulia", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* STYLE FOR THE IMAGE */
+#displayedImage {
+    display: none; /* This line is mandatory */
+}
