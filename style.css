@@ -11,6 +11,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 h1{
     display: flex;
     justify-content: center;
@@ -25,6 +26,7 @@ h1{
     color:aliceblue;
     border-radius: 20px;
 }
+
 /* STYLE FOR THE INPUT FIELD */
 #charInput {
     margin: 20px;
